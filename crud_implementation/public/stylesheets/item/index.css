@@ -1,0 +1,48 @@
+.item-container {
+    border: 1px solid black;
+    width: 40vw;
+    position: relative;
+    height: 7em;
+    min-width: 30em;
+    margin-bottom: 2em;
+}
+
+.item-photo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.item-name {
+    margin-left: 15em;
+    display: block;
+}
+
+.item-price {
+    margin-left: 15em;
+    display: block;
+}
+
+.item-buy-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 8em;
+    height: 100%;
+    cursor: pointer;
+}
+
+div.item-container i.delete-item{
+    position: absolute;
+    right: -10%;
+    font-size: 2.5em;
+    margin-top: -10px;
+}
+
+div.item-container i.delete-item:hover{
+    cursor: pointer;
+    color: red;
+    opacity: 0.8;
+    transition: color 0.6s;
+}

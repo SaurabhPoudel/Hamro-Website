@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-color: rgb(235,203,203);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: rgb(57,76,111);
+}
+
+.mb {
+    margin-bottom: 2em;
+}
+
+.row.top{
+    padding-bottom: 1.2em;
+    padding-top: 1em;
+}
+
+#logo {
+    width: 12vw;
+}
+
+.logo-container{
+    display: inline-block;
+
+}
+
+.search-container {
+    margin-left: 10%;
+    margin-top: -50px;
+    display: inline-block;
+}
+
+.search-container button {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px 5px 10px;
+    overflow: hidden;
+}
+
+.search-container input {
+    padding: 10px 15px 5px 10px;
+    font-size: 20px;
+    border: none;
+    width: 30vw;
+    margin-left: -4px;
+    overflow: hidden;
+}
+
+.row.bottom{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(235,203,203);
+    border-bottom: 1px solid grey;
+}
+
+.col-left {
+    min-width: 10em;
+    margin-right: 15%;
+    float: left;
+}
+
+.col-right {
+    display: inline-block;
+    min-width: 40%;
+    text-align: center;
+}
+
+#home-btn {
+    margin-left: 2%;
+    margin-top: -10px;
+    cursor: pointer;
+    font-size: 3em;
+}
+
+#home-btn:hover{
+    transition: opacity 0.6s;
+    opacity: 0.7;
+}
+
+nav {
+    background-color: rgb(149,141,141);
+    height: 50vh;
+    float: left;
+    width: 20%;
+}
+
+nav a {
+    display: block;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px;
+}
+
+nav a:hover{
+    border-bottom: 1px dotted white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+#content {
+    display: inline-block;
+    width: 75%;
+    padding-left: 5%;
+    padding-top: 2%;
+    background-color: rgb(235,203,203);
+    height: 150vh;
+}
+
+#reviews {
+    display: inline-block;
+    width: 100%;
+}
+
+#reviews .col-left {
+    display: inline-block;
+    width: 50%;
+    margin-right: 2%;
+    
+}
+
+#reviews .col-left img {
+    width: 100%;
+}
+
+
+#reviews .col-right {
+    display: inline-block;
+    widows: 30%;
+    
+}
+
+.user-review {
+    min-height: 7em;
+}
+
+.article-header {
+    position: relative;
+}
+
+.reviewer-avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%;
+}
+
+.user-review span{
+    position: absolute;
+    left: 80px;
+}
+
+.user-review small{
+    display: block;
+}
+
+.user-review p {
+    display: inline-block;
+    width: 14em;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 3px;
+    height: 3em;
+    margin: 0;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    height: 3em;
+    background-color: rgb(57,76,112);
+
+}
+
+
+.col-cart {
+    display: inline;
+    margin-left: 10em;
+}
+
+.col-cart i {
+    font-size: 2.5em;
+}
+
+.col-cart button {
+    margin-top: -3px;
+    cursor: pointer;
+    height: 3.5em;
+    width: 4.5em;
+}
+
+.col-cart input {
+    display: none;
+}
+
+form#shopping-cart {
+    display: inline;
+}
+
+form div.shopping-items {
+    display: inline;
+}
+
+span.item-amount{
+    position: absolute;
+    right: 10em;
+}
+
+.col-cart p {
+    display: inline;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+

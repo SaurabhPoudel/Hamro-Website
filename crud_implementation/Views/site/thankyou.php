@@ -1,0 +1,1 @@
+<h2 class="text-green">Thank you for your registration! Click <a href="index.php?page=site/login">here</a> to login into your new account</h2>
